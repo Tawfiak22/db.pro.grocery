@@ -14,12 +14,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-else{
-    echo "Connected successfully!";
-}
 
 //READ of CRUD
-if(isset($_SESSION["username"])){
+if(isset($_SESSION["Bob12"])){
     $result = $conn->query("SELECT * FROM ordini AS o JOIN utenti AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
         echo "<h1>Your orders</h1>";
     if ($result->num_rows > 0) {
