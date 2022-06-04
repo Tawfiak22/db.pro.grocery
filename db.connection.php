@@ -7,7 +7,6 @@ $username = "root";
 $password = "";
 $dbname = "organic_grocery_shop";
 
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -15,9 +14,11 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-/*
+else{
+    echo "Please login";
+}
 
-//READ
+/*//READ
 if(isset($_SESSION["username"])){
     $result = $conn->query("SELECT * FROM ordini AS o JOIN utenti AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
         echo "<h1>Your orders</h1>";
@@ -29,17 +30,10 @@ if(isset($_SESSION["username"])){
     } else {
         echo "0 results";
     }
-}
-*/
-
-else{
-    echo "Login";
-}
-
+} */
 
 //Close connection:
 $conn->close();
 ?>
-
 </body>
 </html>
