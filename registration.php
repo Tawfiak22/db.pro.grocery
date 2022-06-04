@@ -2,11 +2,8 @@
 <head>
 	<title>Register</title>
 </head>
-
 <body>
-
 <?php
-
 if(isset($_POST['submit'])) {
 	$name = $_POST['name'];
 	$email = $_POST['email'];
@@ -17,7 +14,9 @@ if(isset($_POST['submit'])) {
 		echo "All fields should be filled. Either one or many fields are empty.";
 		echo "<br/>";
 		echo "<a href='register.php'>Go back</a>";
-	} else {
+	} 
+    
+    else {
 		mysqli_query($mysqli, "INSERT INTO login(name, email, username, password) VALUES('$name', '$email', '$user', md5('$pass'))")
 			or die("Could not execute the insert query. Try again.");
 			
@@ -25,7 +24,9 @@ if(isset($_POST['submit'])) {
 		echo "<br/>";
 		echo "<a href='login.php'>Login</a>";
 	}
-} else {
+} 
+
+    else {
 ?>
 	<p><font size="+2">Register</font></p>
 	<form name="form1" method="post" action="">
