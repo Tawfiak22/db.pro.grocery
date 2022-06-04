@@ -30,10 +30,12 @@ if(isset($_SESSION["username"])){
         echo "0 results";
     }
 }
+*/
+
 else{
     echo "Login";
 }
-*/
+
 
 //Close connection:
 $conn->close();
