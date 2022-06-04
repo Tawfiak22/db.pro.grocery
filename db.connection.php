@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 else{
-    echo "Please login";
+    echo "Connected successfully!";
 }
 
 /*//READ
