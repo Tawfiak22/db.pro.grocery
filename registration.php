@@ -31,7 +31,7 @@ if(isset($_POST['submit'])) {
 	<p><font size="+2">Register</font></p>
 	<form name="form1" method="post" action="">
 		<table width="75%" border="0">
-			<tr> 
+			<tr>  
 				<td width="10%">Full Name</td>
 				<td><input type="text" name="name"></td>
 			</tr>
