@@ -1,0 +1,423 @@
+/*THE BODY*/
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/*MAIN TITTLE "2021 Virtual Music Festival"*/
+h1{
+  margin: 0;
+  text-align: center;
+  padding: 100px;
+  color: red;
+  font-size: 4em;
+  font-family: Franklin Gothic, sans-serif;
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-shadow: 2px 2px #000000;
+}
+
+/*H1,H3 and H4*/
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*H4*/
+h2{
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+}
+
+/*H3*/
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FF0000;
+}
+
+
+/*NAVIGATION BAR*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #D3D3D3;}
+
+ul.topnav li a.active {background-color: #8B0000;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/**/
+.home-section {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*MARGIN FOR H2 AND P*/
+.home-section > h2, p {
+  margin: 2%;
+}
+
+/*SECTION W/BLACK BACKGROUND BACK*/
+.home-section:nth-child(even) {
+  background-color: #000000;
+  color: white;
+}
+
+
+/*PICTURES IN BANDS/ARTISTS*/
+.background{
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+ vertical-align:bottom 
+ 
+  
+}
+.col {
+  padding: 10px;
+  flex: 50%;
+  text-align: center;
+  font-size: 130%;
+}
+
+
+.pic:hover {
+  transform:scale(120%,120%);
+  transition: 1s ease-out;
+}
+
+/*FOOTER*/
+footer{
+  background-color: black;
+  color: red;
+  padding: 5px;
+}
+
+
+/*CONTACT*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: arial, sans-serif;
+}
+
+.wrapper{
+  text-align: center; 
+  margin: 0 auto;
+  width: 30%
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  background: red;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+/*FAQ SECTION*/
+h3{
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: red;
+}
+
+main {
+  max-width: 450px;
+  margin: 0 auto;
+}
+summary {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #fff;
+  color: black;
+  padding: 1rem;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 25px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+border: 0px;
+  margin-top: 15px;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+
+
+details[open] summary ~ * {
+  animation: sweep .2s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -5px}
+  100%  {opacity: 1; margin-bottom: -5px}
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 25px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 25px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/*FORM IN THE DATE/LOCATION PAGE*/
+
+{box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  t
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: black;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* form (background) */
+.form {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: black;
+  padding-top: 50px;
+}
+
+/* Form Content/Box */
+.form-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+button {
+  background-color: #8B0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+/* log in */
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
