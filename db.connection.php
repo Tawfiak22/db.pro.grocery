@@ -18,22 +18,9 @@ else{
     echo "Connected successfully!";
 }
 
-/*//READ
-if(isset($_SESSION["username"])){
-    $result = $conn->query("SELECT * FROM ordini AS o JOIN utenti AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
-        echo "<h1>Your orders</h1>";
-    if ($result->num_rows > 0) {
-        // output data of each row
-        while($row = $result->fetch_assoc()) {
-            echo "<span> $row[orderid] $row[del_date] $row[tot_amount] $row[status]</span><br />";
-        }
-    } else {
-        echo "0 results";
-    }
-} */
-
 //Close connection:
 $conn->close();
 ?>
 </body>
 </html>
+
