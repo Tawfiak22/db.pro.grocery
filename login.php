@@ -3,11 +3,8 @@
 <head>
 	<title>Login</title>
 </head>
-
 <body>
-
 <?php
-
 session_start();
 $servername = "localhost";
 $username = "root";
@@ -36,6 +33,7 @@ if(isset($_POST['submit'])) {
 			$_SESSION['valid'] = $validuser;
 			$_SESSION['name'] = $row['name'];
 			$_SESSION['id'] = $row['id'];
+
 		} else {
 			echo "Invalid username or password.";
 			echo "<br/>";
@@ -46,7 +44,9 @@ if(isset($_POST['submit'])) {
 			header('Location: index.php');			
 		}
 	}
-} else {
+}       
+        
+        else {
 ?>
 	<p><font size="+2">Login</font></p>
 	<form name="form1" method="post" action="">

@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
 	if($user == "" || $pass == "" || $name == "" || $email == "") {
 		echo "All fields should be filled. Either one or many fields are empty.";
 		echo "<br/>";
-		echo "<a href='register.php'>Go back</a>";
+		echo "<a href='registration.php'>Go back</a>";
 	} 
     
     else {
