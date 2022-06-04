@@ -18,7 +18,7 @@ else{
     echo "Connected successfully!";
 }
 
-//READ
+//READ of CRUD
 if(isset($_SESSION["username"])){
     $result = $conn->query("SELECT * FROM ordini AS o JOIN utenti AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
         echo "<h1>Your orders</h1>";
@@ -30,9 +30,6 @@ if(isset($_SESSION["username"])){
     } else {
         echo "0 results";
     }
-}
-else{
-    echo "Login";
 }
 
 //Close connection:
