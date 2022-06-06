@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 
 //READ of CRUD
 if(isset($_SESSION["username"])){
-    $result = $conn->query("SELECT * FROM ordini AS o JOIN utenti AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
+    $result = $conn->query("SELECT * FROM orders AS o JOIN users AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
         echo "<h1>Your orders</h1>";
     if ($result->num_rows > 0) {
         // output data of each row
@@ -27,6 +27,9 @@ if(isset($_SESSION["username"])){
     } else {
         echo "0 results";
     }
+}
+else{
+    echo "You must be logged";
 }
 
 //Close connection:
