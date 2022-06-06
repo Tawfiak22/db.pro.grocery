@@ -19,6 +19,7 @@ if ($conn->connect_error) {
 if(isset($_SESSION["username"])){
     $result = $conn->query("SELECT * FROM orders AS o JOIN users AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
         echo "<h1>Your orders</h1>";
+        echo "<a href='delete.php'>";
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
