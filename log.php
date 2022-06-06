@@ -27,8 +27,6 @@
 
     <!-- The H1 + main image Section -->
     <h2>Login</h2>
-
-    <form action="/action_page.php" method="post">
     
       <div class="container">
         <label for="uname"><b>Username</b></label>
