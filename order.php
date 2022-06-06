@@ -14,7 +14,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-
 //READ of CRUD
 if(isset($_SESSION["username"])){
     $result = $conn->query("SELECT * FROM orders AS o JOIN users AS u ON o.userid=u.userid WHERE username='$_SESSION[username]'");
