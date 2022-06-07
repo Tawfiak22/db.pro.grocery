@@ -4,11 +4,11 @@
 
 if(isset($_SESSION["username"])){
     $result = $conn->query("DELETE FROM users WHERE username='$_SESSION[username]'");
-        echo "okay";
+        echo "User deleted";
 }
 
 else {
-        echo "not okay";
+        echo "Cannot delete user";
     }
 
 ?>
