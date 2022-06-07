@@ -2,10 +2,10 @@
 <body>
 <?php
 if(isset($_SESSION["username"])){
-    $result = $conn->query("DELETE FROM users WHERE username='$_SESSION[username]'")
+    $result = $conn->query("DELETE FROM users WHERE username='$_SESSION[username]'");
         echo "okay";
 
-    else {
+else{
         echo "not okay";
     }
 }

@@ -14,12 +14,12 @@
   <body>
     <nav>
       <ul class="topnav">
-        <li><a class="active" href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="product.html">PRODUCT</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="reg.html">SING UP</a></li>
+        <li><a class="active" href="index.php">HOME</a></li>
+        <li><a href="about.php">ABOUT</a></li>
+        <li><a href="product.php">PRODUCT</a></li>
+        <li><a href="faq.php">FAQ</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        <li><a href="reg.php">SING UP</a></li>
         <li><a href="log.php">LOG IN</a></li>
         <li><a href="order.php">ORDER</a></li>
       </ul>
@@ -76,7 +76,7 @@ if(isset($_POST["submit"])) {
 }
 
 		if(isset($_SESSION["username"])) {
-			header('Location: index.html');			
+			header('Location: index.php');			
 		}
 	}
  
