@@ -71,7 +71,7 @@ if(isset($_POST["submit"])) {
       }
     if($found==0)
     {
-      echo "Bad";
+      echo "Please check your username or password.";
     }
 }
 
