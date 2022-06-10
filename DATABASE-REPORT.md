@@ -136,21 +136,48 @@ Delete user:
 (The screenshot on the up was an old screenshot where I tried to use the SALT, but it didn’t work as I wanted) 
 ![2](udel2.png)
 ![3](udel3.png)
+
 ## CONNECT TO PHP
+![1](con1.png)
+![2](con2.png)
+![3](con3.png)
+![4](con4.png)
 
 ## ORDERS
+![1](or1.png)
+![2](or2.png)
 
 ## LOGOUT
+![1](logout1.png)
+![2](logout2.png)
 
 ## CRUD
 
-## CREATE
+### CREATE
+![2](create1.png)
+![2](create2.png)
+![2](create3.png)
+![2](create4.png)
+![2](create5.png)
 
-## READ
+### READ
+![2](read1.png)
+![2](read3.png)
+![2](read3.png)
+![2](read4.png)
+![2](read5.png)
+![2](read6.png)
+![2](read7.png)
+![2](read8.png)
+![2](read9.png)
 
-## UPDATE
+### UPDATE
+![2](update1.png)
+![2](update2.png)
 
-## DELETE
+### DELETE
+![2](delete1.png)
+![2](delete2.png)
 
 ## ER DIAGRAMS
 For my project I also used the ERD (Entity Relationship Diagram) model to get what I wanted. I created it to give a small visualization of my project which shows the various entities such as users, objects or concepts relate to each other within a system.
