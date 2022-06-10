@@ -47,7 +47,7 @@ System design: For the system design I used draw myself as it is a very easy too
 
 -	Registration form: The diagram below it’s the interface of the registration page. This is the front of the page where new users sign up to create their profile.
 
-![Registratio page](Registration.png)
+![Registratio page](reg.png)
 
 -	Login: The diagram below it’s the interface of the login page. This is the front of the page where existing users access their profile.
 
@@ -57,7 +57,7 @@ System design: For the system design I used draw myself as it is a very easy too
 
 User: 
 
-![User](images2/new_movies.png)
+![User](user.png)
 
 For the user I have created the various sections such as:
 
@@ -73,7 +73,7 @@ For the user I have created the various sections such as:
 
 Product:
 
-![New Movies page](images2/new_movies.png)
+![Product](product.png)
 
 For the products I have created the various sections such as:
 
@@ -87,7 +87,7 @@ For the products I have created the various sections such as:
 
 Orders:
 
-![New Movies page](images2/new_movies.png)
+![Order](order.png)
 
 For orders I have created the various sections such as:
 
@@ -100,7 +100,7 @@ For orders I have created the various sections such as:
 
 Purchase:
 
-![New Movies page](images2/new_movies.png)
+![Purchase](pur.png)
 
 For the purchase I created the various sections such as:
 
@@ -119,7 +119,23 @@ Security is one of the most important things in the internet platform because th
 
 
 ## IMPLEMENTATION
+User:
+![1](user1.png)
+![2](user2.png)
+![3](user3.png)
+(The screenshot on the up was an old screenshot where I tried to use the SALT, but it didn’t work as I wanted) 
+![4](user4.png)
 
+Update user tel. number from 123456789 to 12345678911:
+![1](up1.png)
+![2](up2.png)
+![3](up3.png)
+
+Delete user:
+![1](udel1.png)
+(The screenshot on the up was an old screenshot where I tried to use the SALT, but it didn’t work as I wanted) 
+![2](udel2.png)
+![3](udel3.png)
 ## CONNECT TO PHP
 
 ## ORDERS
@@ -139,7 +155,7 @@ Security is one of the most important things in the internet platform because th
 ## ER DIAGRAMS
 For my project I also used the ERD (Entity Relationship Diagram) model to get what I wanted. I created it to give a small visualization of my project which shows the various entities such as users, objects or concepts relate to each other within a system.
 
-
+![ER Diagrams](er.png)
 
 ## QUERY
 Users table:
