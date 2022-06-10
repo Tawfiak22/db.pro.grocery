@@ -154,29 +154,29 @@ Delete user:
 ## CRUD
 
 ### CREATE
-![2](create1.png)
+![1](create1.png)
 ![2](create2.png)
-![2](create3.png)
-![2](create4.png)
-![2](create5.png)
+![3](create3.png)
+![4](create4.png)
+![5](create5.png)
 
 ### READ
-![2](read1.png)
+![1](read1.png)
 ![2](read3.png)
-![2](read3.png)
-![2](read4.png)
-![2](read5.png)
-![2](read6.png)
-![2](read7.png)
-![2](read8.png)
-![2](read9.png)
+![3](read3.png)
+![4](read4.png)
+![5](read5.png)
+![6](read6.png)
+![7](read7.png)
+![8](read8.png)
+![9](read9.png)
 
 ### UPDATE
-![2](update1.png)
+![1](update1.png)
 ![2](update2.png)
 
 ### DELETE
-![2](delete1.png)
+![1](delete1.png)
 ![2](delete2.png)
 
 ## ER DIAGRAMS
